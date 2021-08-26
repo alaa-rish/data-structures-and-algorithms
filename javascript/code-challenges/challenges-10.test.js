@@ -34,7 +34,7 @@ const findMax = (matrix) => {
   matrix.forEach(arr => {
     arr.forEach(num => {
       if (max < num) max = num;
-    })
+    });
   });
   return max;
 };
@@ -58,7 +58,7 @@ const totalSum = (matrix) => {
   matrix.forEach(arr => {
     arr.forEach(num => {
       sum += num;
-    })
+    });
   });
   return sum;
 };
